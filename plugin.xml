@@ -20,15 +20,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-vibration"
+    id="elastos-trinity-plugins-vibration"
     version="3.1.1-dev">
 
     <name>Vibration</name>
     <description>Cordova Vibration Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,vibration</keywords>
-    <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-vibration.git</repo>
-    <issue>https://issues.apache.org/jira/browse/CB/component/12320639</issue>
 
     <!-- android -->
     <platform name="android">
