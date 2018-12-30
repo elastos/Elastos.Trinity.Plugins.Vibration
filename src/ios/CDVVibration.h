@@ -21,8 +21,9 @@
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioServices.h>
 #import <Cordova/CDVPlugin.h>
+#import "TrinityPlugin.h"
 
-@interface CDVVibration : CDVPlugin {}
+@interface CDVVibration : TrinityPlugin {}
 
 - (void)vibrate:(CDVInvokedUrlCommand*)command;
 
