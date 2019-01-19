@@ -23,9 +23,9 @@ description: Vibrate the device.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-vibration?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-vibration)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-vibration.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-vibration)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-vibration?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-vibration)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-vibration.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-vibration)|
 
-# cordova-plugin-vibration
+# elastos-trinity-plugins-vibration
 
 This plugin aligns with the W3C vibration specification http://www.w3.org/TR/vibration/
 
@@ -42,7 +42,7 @@ Although in the global scope, they are not available until after the `deviceread
 
 ## Installation
 
-    cordova plugin add cordova-plugin-vibration
+    cordova plugin add elastos-trinity-plugins-vibration
 
 ## Supported Platforms
 
