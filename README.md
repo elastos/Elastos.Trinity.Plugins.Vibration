@@ -42,7 +42,9 @@ Although in the global scope, they are not available until after the `deviceread
 
 ## Installation
 
-    cordova plugin add elastos-trinity-plugins-vibration
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Vibration.git
+
+    The plugins field of dapp manifest.json adds Vibration values, such as "plugins": ["XXXX", "Vibration", "XXXX"]
 
 ## Supported Platforms
 
