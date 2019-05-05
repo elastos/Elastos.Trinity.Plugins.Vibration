@@ -21,10 +21,6 @@ description: Vibrate the device.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-vibration?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-vibration)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-vibration.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-vibration)|
-
 # elastos-trinity-plugins-vibration
 
 This plugin aligns with the W3C vibration specification http://www.w3.org/TR/vibration/
@@ -42,8 +38,6 @@ Although in the global scope, they are not available until after the `deviceread
 
 ## Installation
 
-    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Vibration.git
-
     The plugins field of dapp manifest.json adds Vibration values, such as "plugins": ["XXXX", "Vibration", "XXXX"]
 
 ## Supported Platforms
@@ -52,7 +46,6 @@ navigator.vibrate
 
 - Android
 - iOS
-- Windows
 
 
 The Android webview (API level 19 and up) supports the [W3C Vibration API](https://www.w3.org/TR/vibration/) natively and therefore, the Android specific implementation of this plugin has been dropped.
@@ -92,12 +85,6 @@ Calls to `navigator.vibrate` will immediately return `false` if user hasn't tapp
 - __time__: Ignores the specified time and vibrates for a pre-set amount of time.
 
     navigator.vibrate(3000); // 3000 is ignored
-
-#### Windows Quirks
-
-- __time__: Max time is 5000ms (5s) and min time is 1ms
-
-    navigator.vibrate(8000); // will be truncated to 5000
 
 ### Vibrate with a pattern (Android and Windows only)
 Vibrates the device with a given pattern
